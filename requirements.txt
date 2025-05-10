@@ -1,7 +1,8 @@
 protected-classification
 uncertainty-calibration
-Venn-abers
+venn-abers
 pandas
+numpy
 cvxpy
 tqdm
 matplotlib
