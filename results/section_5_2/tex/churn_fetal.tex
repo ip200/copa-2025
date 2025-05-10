@@ -1,0 +1,19 @@
+\begin{table}
+\caption{ECE for the churn and fetal datasets, with competing calibration algorithms applied to the underlying classifiers}
+\begin{tabular}{l|rrr|rrr|r|}
+dset & \multicolumn{3}{r}{churn} & \multicolumn{3}{r}{fetal} & average \\
+classifier & lr & rf & xb & lr & rf & xb &  \\
+calibrator &  &  &  &  &  &  &  \\
+base & 0.050 & 0.039 & 0.055 & 0.139 & 0.160 & 0.129 & 0.095 \\
+platt_const & 0.051 & 0.040 & 0.042 & 0.126 & 0.125 & 0.129 & 0.085 \\
+platt_continuous & 0.014 & 0.026 & 0.012 & 0.039 & 0.036 & 0.039 & 0.028 \\
+platt_continuous_beat & 0.013 & 0.015 & 0.010 & 0.038 & 0.022 & 0.029 & 0.021 \\
+platt_continuous_calibeat & 0.019 & 0.018 & 0.017 & 0.048 & 0.054 & 0.055 & 0.035 \\
+platt_va & 0.012 & 0.014 & 0.010 & 0.040 & 0.024 & 0.032 & 0.022 \\
+platt_windowed & 0.042 & 0.033 & 0.034 & 0.084 & 0.071 & 0.081 & 0.057 \\
+protected & 0.019 & 0.026 & 0.029 & 0.085 & 0.087 & 0.092 & 0.056 \\
+protected_beat & 0.012 & 0.015 & 0.010 & 0.032 & 0.019 & 0.023 & 0.018 \\
+protected_va & 0.012 & 0.018 & 0.012 & 0.058 & 0.036 & 0.051 & 0.031 \\
+va_protected & 0.013 & 0.012 & 0.009 & 0.029 & 0.027 & 0.028 & 0.019 \\
+\end{tabular}
+\end{table}

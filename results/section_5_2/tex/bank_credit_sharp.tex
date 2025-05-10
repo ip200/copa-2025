@@ -1,0 +1,19 @@
+\begin{table}
+\caption{Sharpness for the bank and credit datasets, with competing calibration algorithms applied to the underlying classifiers}
+\begin{tabular}{l|rrr|rrr|r|}
+dset & \multicolumn{3}{r}{bank} & \multicolumn{3}{r}{credit} & average \\
+classifier & lr & rf & xb & lr & rf & xb &  \\
+calibrator &  &  &  &  &  &  &  \\
+base & 0.109 & 0.111 & 0.108 & 0.057 & 0.077 & 0.077 & 0.090 \\
+platt_const & 0.109 & 0.110 & 0.108 & 0.054 & 0.076 & 0.077 & 0.089 \\
+platt_continuous & 0.112 & 0.112 & 0.111 & 0.054 & 0.076 & 0.077 & 0.091 \\
+platt_continuous_beat & 0.112 & 0.112 & 0.111 & 0.054 & 0.076 & 0.077 & 0.090 \\
+platt_continuous_calibeat & 0.111 & 0.112 & 0.110 & 0.054 & 0.076 & 0.077 & 0.090 \\
+platt_va & 0.112 & 0.112 & 0.111 & 0.054 & 0.076 & 0.077 & 0.090 \\
+platt_windowed & 0.109 & 0.109 & 0.107 & 0.055 & 0.076 & 0.077 & 0.089 \\
+protected & 0.112 & 0.114 & 0.114 & 0.055 & 0.077 & 0.077 & 0.091 \\
+protected_beat & 0.113 & 0.114 & 0.115 & 0.054 & 0.076 & 0.077 & 0.091 \\
+protected_va & 0.111 & 0.113 & 0.113 & 0.055 & 0.076 & 0.076 & 0.091 \\
+va_protected & 0.113 & 0.114 & 0.114 & 0.056 & 0.076 & 0.076 & 0.091 \\
+\end{tabular}
+\end{table}

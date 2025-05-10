@@ -1,0 +1,9 @@
+python=3.11.8
+protected-classification
+uncertainty-calibration
+Venn-abers
+pandas
+cvxpy
+tqdm
+matplotlib
+river
