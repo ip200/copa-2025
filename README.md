@@ -22,3 +22,5 @@ python section_5_1_1.py
 
 The results will be stored in the *./results* folder with the corresponding
 tex formatted output in the *./results/experiment/tex* folder (e.g *./results/section_5_1_1/tex*)
+
+Please note that experiments for Section 5.1.2 are not possible to be shared here due to the large dataset size > 25 MB
